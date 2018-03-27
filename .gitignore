@@ -157,3 +157,6 @@ Temporary Items
 
 #JSON file containing API keys and API secrets
 secrets.json
+
+#Settings
+bittrex_config/settings.py
