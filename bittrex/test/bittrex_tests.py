@@ -1,7 +1,7 @@
 import unittest
 import json
 from bittrex.bittrex import Bittrex, API_V2_0, API_V1_1, BUY_ORDERBOOK, TICKINTERVAL_ONEMIN
-
+from bittrex_config import settings
 try:
     open("secrets.json").close()
     IS_CI_ENV = False
